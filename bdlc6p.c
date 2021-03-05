@@ -1,5 +1,9 @@
-/* * bdlc6p.c * A test of driving a blushless DC motor with 6-pulse contol by Raspberry Pi * Depends on pigpio.h * (c) 2021 @RR_Inyo * Released under the MIT lisence * 
- https://opensource.org/licenses/mit-license.php */
+/* * bdlc6p.c * A test of driving a blushless DC motor with 6-pulse contol by Raspberry Pi
+* Depends on pigpio.h
+* (c) 2021 @RR_Inyo
+* Released under the MIT lisence
+* https://opensource.org/licenses/mit-license.php
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
