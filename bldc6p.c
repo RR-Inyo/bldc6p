@@ -1,9 +1,11 @@
-/* * bldc6p.c
-* A test of driving a blushless DC motor with 6-pulse contol by Raspberry Pi
-* Depends on pigpio.h * (c) 2021 @RR_Inyo
-* Released under the MIT lisence
-* https://opensource.org/licenses/mit-license.php
-*/
+/*
+ * bldc6p.c
+ * A test of driving a blushless DC motor with 6-pulse contol by Raspberry Pi
+ * Depends on pigpio.h
+ * (c) 2021 @RR_Inyo
+ * Released under the MIT lisence
+ * https://opensource.org/licenses/mit-license.php
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,11 +15,12 @@
 #define P_PAIR  7       /* Number of pole pairs */
 #define F_PWM   15000   /* [Hz], PWM carrier frequency */
 #define MOD_I   400000  /* modulaiton index at the start of 6-pulse control: Note unity = 1,000,000 */
-#define NUM_F   5       /* Number of turns in terms for initial forced commutation */
+#define NUM_F   8       /* Number of turns in terms for initial forced commutation */
 #define MOD_F   400000  /* Modulation index for initial forced commutation: Note unity = 1,000,000 */
-#define TICK_F  500     /* [microseconds] to stay in a section */
+#define TICK_F  100     /* [microseconds] to stay in a section */
 #define D_MOD   20000   /* Change of modulation index by one command */
-#define MAF     20      /*
+#define CHKDLY  50000   /* [microsecond] to wait to check the callback function takes over control
+
 
 /* Define GPIO pins connected to P-NUCLEO-IHM001 */
 /* Hall sensors */
@@ -39,6 +42,9 @@
 #define IN2     13
 #define IN3     18
 
+/* Sector 1 signal */
+#define SEC1    25
+
 /* Constant aliases */
 #define GB      0
 #define DEB     1
@@ -53,6 +59,7 @@
 /* Define global variables */
 int st = STILL;     /* Enable (deblock) status */
 int mod = 0;        /* Modulation index */
+int called = 0;     /* Flag to indicate the callback function being called */
 uint32_t td_0 = 0;  /* [microsecond] for one electrical cycle */
 uint32_t td_1 = 0;  /* [microsecond] for one electrical cycle, old value */
 
@@ -69,7 +76,7 @@ int main(int argc, char *argv[])
 {
     /* Show initial message */
     printf("=====================================================\n");
-    printf(" bdlc6p - BLDC motor 6-pulse control by Raspberry Pi \n");
+    printf(" bldc6p - BLDC motor 6-pulse control by Raspberry Pi \n");
     printf(" (c) 2021 @RR_Inyo                                   \n");
     printf("=====================================================\n");
     printf("Commands:                                            \n");
@@ -81,7 +88,7 @@ int main(int argc, char *argv[])
     printf("  e: End this program                                \n");
 
     /* Set GPIO pins to communicate with P-NUCLEO-IHM001 */
-    printf("Setting GPIO pins...");
+    printf("Setting GPIO pins...\n");
     setGPIO();
 
     /* Infinate loop, outer */
@@ -97,15 +104,30 @@ int main(int argc, char *argv[])
         mod = MOD_F;
         forcedCommutate(NUM_F, P_PAIR, TICK_F);
 
-        /* Set modulation index */
-        mod = MOD_I;
+        /* Lower the flag */
+        called = 0;
 
         /* Set callback function and start 6-pulse control with Hall sensor signals */
-        printf("Geting into the 6-pulse (120-degree) control mode with ISR callback functions...\n");
+        printf("Getting into the 6-pulse (120-degree) control mode by ISR callback functions...\n");
         mod = MOD_I;
         gpioSetISRFunc(H1, EITHER_EDGE, TIMEOUT, cbDriveMotor);
         gpioSetISRFunc(H2, EITHER_EDGE, TIMEOUT, cbDriveMotor);
         gpioSetISRFunc(H3, EITHER_EDGE, TIMEOUT, cbDriveMotor);
+
+        /* Check whether successfully got into the 6-pulse mode */
+        gpioDelay(CHKDLY);
+        if(!called) {
+            printf("Failed to get into the 6-pulse (120-degree) control  mode by ISR callback functions.\n");
+            gpioSetISRFunc(H1, EITHER_EDGE, TIMEOUT, NULL);
+            gpioSetISRFunc(H2, EITHER_EDGE, TIMEOUT, NULL);
+            gpioSetISRFunc(H3, EITHER_EDGE, TIMEOUT, NULL);
+            gateBlock();
+            st = STILL;
+            continue;
+        }
+        else {
+            printf("Succeeded in getting into the 6-pulse (120-degree) control mode by ISR callback functions.\n");
+        }
 
         /* Infinate loop, inner */
         while(st == RUNNING) {
@@ -156,6 +178,10 @@ void setGPIO()
     gpioSetMode(IN1, PI_OUTPUT);
     gpioSetMode(IN2, PI_OUTPUT);
     gpioSetMode(IN3, PI_OUTPUT);
+
+    /* Set GPIO pin for Sector 1 signal */
+    gpioWrite(SEC1, 0);
+    gpioSetMode(SEC1, PI_OUTPUT);
 }
 
 /* Function to process command from user */
@@ -164,7 +190,7 @@ void processCommand()
     int c;
 
     /* Show prompt */
-    printf("bldc6p >>");
+    printf("bldc6p>> ");
 
     /* Obtain input */
     while(1) {
@@ -175,7 +201,7 @@ void processCommand()
         switch (c) {
             case 's':   /* Start motor */
                 if (st == RUNNING) {
-                    printf("Motor already running...\n");
+                    printf("Motor already running.\n");
                 }
                 else if (st == STILL) {
                     st = RUNNING;
@@ -187,6 +213,9 @@ void processCommand()
                     st = STILL;
                     printf("Stopping motor...\n");
                 }
+                else if (st == STILL) {
+                    printf("Motor already standstill.\n");
+                }
                 return;
 
             case 'r':   /* Raise modulation index */
@@ -194,7 +223,7 @@ void processCommand()
                 if (mod > 1000000) {
                     mod = 1000000;
                 }
-                printf("Modulation index: %.2f\n", mod / 1000000.0);
+                printf("Modulation index raised up to: %.2f\n", mod / 1000000.0);
                 return;
 
             case 'l':   /* Lower modulation index */
@@ -202,7 +231,7 @@ void processCommand()
                 if (mod < 0) {
                     mod = 0;
                 }
-                printf("Modulation index: %.2f\n", mod / 1000000.0);
+                printf("Modulation index lowered down to: %.2f\n", mod / 1000000.0);
                 return;
 
             case 't':   /* Show rotational speed */
@@ -259,6 +288,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN2, GB);
             gpioWrite(EN3, DEB);
 
+            /* Write 1 to Sector 1 signal */
+            gpioWrite(SEC1, 1);
+
             break;
 
         case 2:     /* Sector 2 */
@@ -271,6 +303,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN1, GB);
             gpioWrite(EN2, DEB);
             gpioWrite(EN3, DEB);
+
+            /* Write 0 to Sector 1 signal */
+            gpioWrite(SEC1, 0);
 
             break;
 
@@ -285,6 +320,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN2, DEB);
             gpioWrite(EN3, GB);
 
+            /* Write 0 to Sector 1 signal */
+            gpioWrite(SEC1, 0);
+
             break;
 
         case 4:     /* Sector 4 */
@@ -297,6 +335,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN1, DEB);
             gpioWrite(EN2, GB);
             gpioWrite(EN3, DEB);
+
+            /* Write 0 to Sector 1 signal */
+            gpioWrite(SEC1, 0);
 
             break;
 
@@ -311,6 +352,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN2, DEB);
             gpioWrite(EN3, DEB);
 
+            /* Write 0 to Sector 1 signal */
+            gpioWrite(SEC1, 0);
+
             break;
 
         case 6:     /* Sector 6 */
@@ -324,6 +368,9 @@ void produceSignal(unsigned sector)
             gpioWrite(EN2, DEB);
             gpioWrite(EN3, GB);
 
+            /* Write 0 to Sector 1 signal */
+            gpioWrite(SEC1, 0);
+
             break;
     }
 }
@@ -331,6 +378,9 @@ void produceSignal(unsigned sector)
 /* Callback function to choose sector depending on Hall sensor signals */
 void cbDriveMotor(int gpio, int level, uint32_t tick)
 {
+    /* Raise the flag */
+    called = 1;
+
     /* Choose sector depending on Hall sensor signals */
     /* From 010 to 011 */
     if (gpio == H3 && level == 1) {
