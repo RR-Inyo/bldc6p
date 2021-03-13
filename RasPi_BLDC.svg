@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210.2738mm"
+   height="121.84052mm"
+   viewBox="0 0 210.2738 121.84052"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="ラズパイBLDCドライブの構成-切り抜き.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="107.5"
+       y="117"
+       width="20.5"
+       height="15"
+       id="rect1270" />
+    <rect
+       x="190"
+       y="75"
+       width="25"
+       height="30"
+       id="rect1214" />
+    <marker
+       style="overflow:visible"
+       id="marker2088"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2086" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1824"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1822" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleOutM"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1208" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1096" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1090-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2088-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2086-6" />
+    </marker>
+    <symbol
+       id="g1040">
+      <title
+         id="title10557">Resistor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 20,25 h 4.999998"
+         id="path835"
+         sodipodi:nodetypes="cc" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="rect837"
+         width="10"
+         height="3"
+         x="25"
+         y="23.5"
+         ry="2.1484087e-13" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 35,25 c 0,0 5,0 5,0"
+         id="path839" />
+      <title
+         id="title10713">Resistor</title>
+    </symbol>
+    <symbol
+       id="g1048">
+      <title
+         id="title10559">Inductor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 50,25 h 5"
+         id="path875" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path877"
+         sodipodi:type="arc"
+         sodipodi:cx="57.499992"
+         sodipodi:cy="25.000002"
+         sodipodi:rx="2.5"
+         sodipodi:ry="2.5"
+         sodipodi:start="3.1415927"
+         sodipodi:end="0"
+         sodipodi:arc-type="arc"
+         d="m 54.999992,25.000002 a 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5"
+         sodipodi:open="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path877-2"
+         sodipodi:type="arc"
+         sodipodi:cx="62.5"
+         sodipodi:cy="25.000002"
+         sodipodi:rx="2.5"
+         sodipodi:ry="2.5"
+         sodipodi:start="3.1415927"
+         sodipodi:end="0"
+         sodipodi:arc-type="arc"
+         d="m 60,25.000002 a 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5"
+         sodipodi:open="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path877-5"
+         sodipodi:type="arc"
+         sodipodi:cx="67.5"
+         sodipodi:cy="25.000002"
+         sodipodi:rx="2.5"
+         sodipodi:ry="2.5"
+         sodipodi:start="3.1415927"
+         sodipodi:end="0"
+         sodipodi:arc-type="arc"
+         d="m 65,25.000002 a 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5"
+         sodipodi:open="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path877-0"
+         sodipodi:type="arc"
+         sodipodi:cx="72.5"
+         sodipodi:cy="25.000002"
+         sodipodi:rx="2.5"
+         sodipodi:ry="2.5"
+         sodipodi:start="3.1415927"
+         sodipodi:end="0"
+         sodipodi:arc-type="arc"
+         d="m 70,25.000002 a 2.5,2.5 0 0 1 2.5,-2.5 2.5,2.5 0 0 1 2.5,2.5"
+         sodipodi:open="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 75.000002,25.000001 h 5"
+         id="path875-8" />
+      <title
+         id="title10729">Inductor</title>
+    </symbol>
+    <symbol
+       id="g1054">
+      <title
+         id="title10561">Capacitor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 89.999999,25 h 6.5"
+         id="path955" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="M 98.499998,25 C 98.999999,25 105,25 105,25"
+         id="path957" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 96.499999,21.5 v 7.000001"
+         id="path959" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 98.499998,21.5 v 7.000001"
+         id="path961" />
+      <title
+         id="title10757">Capacitor</title>
+    </symbol>
+    <symbol
+       id="g1559">
+      <title
+         id="title10563">Circuit breaker</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 115,25 5,-2.5"
+         id="path1534" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 112.5,25 H 115"
+         id="path1536" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120,25 h 2.5"
+         id="path1538" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 119.5,24.5 1,1"
+         id="path1540" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120.5,24.5 -1,1"
+         id="path1542" />
+      <title
+         id="title10790">Circuit breaker</title>
+    </symbol>
+    <symbol
+       id="g1564">
+      <title
+         id="title10565">Generic switch</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 130,25 5,-2.5"
+         id="path1544" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 127.5,25 H 130"
+         id="path1546" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 135,25 h 2.5"
+         id="path1548" />
+      <title
+         id="title10832">Generic switch</title>
+    </symbol>
+    <symbol
+       id="g1059">
+      <title
+         id="title10581">AC voltage source</title>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path986"
+         cx="30"
+         cy="45"
+         rx="4.0000019"
+         ry="4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 27,45 c 0,0 0.500002,-1.000002 1.500001,-1.000001 C 29.5,44 30,44.999999 30,44.999999"
+         id="path1005"
+         sodipodi:nodetypes="czc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 30,45 c 0,0 0.500002,1.000002 1.500001,1.000001 C 32.5,46 33,45.000001 33,45.000001"
+         id="path1005-0"
+         sodipodi:nodetypes="czc" />
+      <title
+         id="title10878">AC voltage source</title>
+    </symbol>
+    <symbol
+       id="use1887">
+      <title
+         id="title10589">Current source</title>
+      <g
+         id="g2038">
+        <ellipse
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           id="ellipse2034"
+           cx="45"
+           cy="45"
+           rx="4.0000019"
+           ry="4" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+           d="M 45,47.5 V 43"
+           id="path2036"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="ellipse2040"
+         cx="45"
+         cy="45"
+         rx="4.0000019"
+         ry="4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1824)"
+         d="M 45,47.5 V 43"
+         id="path2042"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title10936">Current source</title>
+    </symbol>
+    <symbol
+       id="g1532">
+      <title
+         id="title10591">Generic voltage source</title>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="path986-5-3"
+         cx="60"
+         cy="45"
+         rx="4.0000019"
+         ry="4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 59,43 h 2"
+         id="path1522"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 59.999998,42 60,44"
+         id="path1524"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 59,47.5 h 2"
+         id="path1526"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title10998">Generic voltage source</title>
+    </symbol>
+    <symbol
+       id="g10579">
+      <title
+         id="title10593">DC voltage source</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 71,44 h 8"
+         id="path10567"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 73.5,46 h 3"
+         id="path10569"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 75,40 v 3.999999"
+         id="path10571"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 75,46 v 4"
+         id="path10573"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title11066">DC voltage source</title>
+    </symbol>
+    <symbol
+       id="g2976">
+      <title
+         id="title10595">Ground</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 75,42.499999 v 2.5"
+         id="path2946" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 71.499999,44.999999 h 6.999999"
+         id="path2948" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 73,46 h 4"
+         id="path2950"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 74.5,47 h 1"
+         id="path2952"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title11171">Ground</title>
+    </symbol>
+    <symbol
+       id="g2984">
+      <title
+         id="title10597">Earth</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 90,42.5 V 45"
+         id="path2954" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 86.499999,45 h 6.999999"
+         id="path2956" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 88,44.999999 86.499998,47.5"
+         id="path2958" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 89.5,44.999999 88,47.5"
+         id="path2960" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 90.999999,44.999999 89.5,47.5"
+         id="path2962" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 92.499999,44.999999 -1.5,2.500001"
+         id="path2964" />
+      <title
+         id="title11253">Earth</title>
+    </symbol>
+    <symbol
+       id="g2055">
+      <title
+         id="title10599">Diode</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 30,64.999999 V 75"
+         id="path1782" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 28,68 h 4"
+         id="path1784"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.323089;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1794"
+         sodipodi:sides="3"
+         sodipodi:cx="29.999998"
+         sodipodi:cy="70.5"
+         sodipodi:r1="2.5"
+         sodipodi:r2="3.0103986"
+         sodipodi:arg1="-1.5707956"
+         sodipodi:arg2="-0.52359805"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 30,68 2.165061,3.750002 -4.330127,-4e-6 z"
+         inkscape:transform-center-x="0.87623995"
+         inkscape:transform-center-y="-0.56658514"
+         transform="matrix(0.92376043,0,0,0.93333321,2.2871898,4.5333408)" />
+      <title
+         id="title11346">Diode</title>
+    </symbol>
+    <symbol
+       id="g2068">
+      <title
+         id="title10603">GTO thyristor</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 50,65 V 75.000001"
+         id="path1804" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 48,68.000001 h 4"
+         id="path1806"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.323089;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1808"
+         sodipodi:sides="3"
+         sodipodi:cx="29.999998"
+         sodipodi:cy="70.5"
+         sodipodi:r1="2.5"
+         sodipodi:r2="3.0103986"
+         sodipodi:arg1="-1.5707956"
+         sodipodi:arg2="-0.52359805"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 30,68 2.165061,3.750002 -4.330127,-4e-6 z"
+         inkscape:transform-center-x="0.87623995"
+         inkscape:transform-center-y="-0.56658514"
+         transform="matrix(0.92376043,0,0,0.93333321,22.28719,4.5333418)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 51,68 1,-2.5"
+         id="path1810"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 51,66.5 52,67"
+         id="path1812"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title11442">GTO thyristor</title>
+    </symbol>
+    <symbol
+       id="g2510">
+      <title
+         id="title10611">NPN BJT</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 64.85,65.15 v 10"
+         id="path1652"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 69.849998,65.149999 64.85,68.149998"
+         id="path1654" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1662)"
+         d="m 64.848246,72.141175 4.593268,2.760887"
+         id="path1656"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 62.35,70.149999 h 2.5"
+         id="path1658" />
+      <title
+         id="title11554">NPN BJT</title>
+    </symbol>
+    <symbol
+       id="g2534">
+      <title
+         id="title10619">PNP BJT</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 79.85,65.15 v 10"
+         id="path1724"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 79.85,72.15 4.999998,2.999999"
+         id="path1726" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1734)"
+         d="m 84.85,65.15 -4.593268,2.760887"
+         id="path1728"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 77.35,70.149999 h 2.5"
+         id="path1730" />
+      <title
+         id="title11672">PNP BJT</title>
+    </symbol>
+    <symbol
+       id="g3012">
+      <title
+         id="title10627">N-channel enhancement MOSFET</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 100,65 V 75"
+         id="path2070"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 97.499999,69.999999 100,70"
+         id="path2072"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 101.5,64.999998 V 67.5"
+         id="path2074"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 101.5,68.499999 v 2.999999"
+         id="path2076" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 101.5,72.5 v 2.499999"
+         id="path2078"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 105,64.999998 V 66.5 h -3.5"
+         id="path2080"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2088)"
+         d="m 105.00364,74.999999 v -5 h -3.04879"
+         id="path2082" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 101.5,73.5 H 105"
+         id="path2084"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title11797">N-channel enhancement MOSFET</title>
+    </symbol>
+    <symbol
+       id="g3048">
+      <title
+         id="title10635">MOSFET + diode</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 115,65 V 75"
+         id="path2070-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 112.5,69.999999 115,70"
+         id="path2072-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 116.5,64.999998 V 67.5"
+         id="path2074-3"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 116.5,68.499999 v 2.999999"
+         id="path2076-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 116.5,72.5 v 2.499999"
+         id="path2078-2"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 120,64.999998 V 66.5 h -3.5"
+         id="path2080-8"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2088-0)"
+         d="m 120.00364,74.999999 v -5 h -3.04879"
+         id="path2082-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 116.5,73.5 H 120"
+         id="path2084-8"
+         sodipodi:nodetypes="cc" />
+      <g
+         id="g2055-6"
+         transform="translate(95)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 30,64.999999 V 75"
+           id="path1782-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 28,68 h 4"
+           id="path1784-9"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#000000;stroke-width:0.323089;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1794-7"
+           sodipodi:sides="3"
+           sodipodi:cx="29.999998"
+           sodipodi:cy="70.5"
+           sodipodi:r1="2.5"
+           sodipodi:r2="3.0103986"
+           sodipodi:arg1="-1.5707956"
+           sodipodi:arg2="-0.52359805"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 30,68 2.165061,3.750002 -4.330127,-4e-6 z"
+           inkscape:transform-center-x="0.87623995"
+           inkscape:transform-center-y="-0.56658514"
+           transform="matrix(0.92376043,0,0,0.93333321,2.2871898,4.5333408)" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120,64.999998 c 0,0 5,0 5,0"
+         id="path2310" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120,74.999999 h 5"
+         id="path2312" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 120,62.499998 v 2.5"
+         id="path2314" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 120,74.999999 V 77.5"
+         id="path2316" />
+      <title
+         id="title11937">MOSFET + diode</title>
+    </symbol>
+    <symbol
+       id="g2486">
+      <title
+         id="title10643">n-channel IGBT</title>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 140,65 V 75"
+         id="path1652-0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 145,64.999999 -5,2.999999"
+         id="path1654-7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1662-0)"
+         d="m 139.99824,71.991175 4.59327,2.760887"
+         id="path1656-9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 138.5,67 v 5.5 h -2"
+         id="path2474" />
+      <title
+         id="title12104">n-channel IGBT</title>
+    </symbol>
+    <symbol
+       id="g3085">
+      <title
+         id="title10651">IGBT + diode</title>
+      <g
+         id="g2486-2"
+         transform="translate(15)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 140,65 V 75"
+           id="path1652-0-2"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 145,64.999999 -5,2.999999"
+           id="path1654-7-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1662-0-5)"
+           d="m 139.99824,71.991175 4.59327,2.760887"
+           id="path1656-9-1"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 138.5,67 v 5.5 h -2"
+           id="path2474-5" />
+      </g>
+      <g
+         id="g2055-6-3"
+         transform="translate(132.5)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 30,64.999999 V 75"
+           id="path1782-5-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 28,68 h 4"
+           id="path1784-9-1"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#000000;stroke-width:0.323089;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1794-7-1"
+           sodipodi:sides="3"
+           sodipodi:cx="29.999998"
+           sodipodi:cy="70.5"
+           sodipodi:r1="2.5"
+           sodipodi:r2="3.0103986"
+           sodipodi:arg1="-1.5707956"
+           sodipodi:arg2="-0.52359805"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 30,68 2.165061,3.750002 -4.330127,-4e-6 z"
+           inkscape:transform-center-x="0.87623995"
+           inkscape:transform-center-y="-0.56658514"
+           transform="matrix(0.92376043,0,0,0.93333321,2.2871898,4.5333408)" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 162.5,64.999999 H 160 v -2.5"
+         id="path2709" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 162.5,75 c -0.5,0 -2.5,0 -2.5,0 v 2.5"
+         id="path2711" />
+      <title
+         id="title12266">IGBT + diode</title>
+    </symbol>
+    <symbol
+       id="g3104">
+      <title
+         id="title10653">Wye-delta transformer</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2713"
+         cx="40"
+         cy="105"
+         r="10" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2713-4"
+         cx="50.150002"
+         cy="105.15"
+         r="10" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 35.5,102 c 0,0 0,3 0,3 l -2.499999,1.5"
+         id="path2730" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 35.5,105 2.5,1.5"
+         id="path2732" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2734"
+         sodipodi:sides="3"
+         sodipodi:cx="55.5"
+         sodipodi:cy="105"
+         sodipodi:r1="3"
+         sodipodi:r2="5.5901699"
+         sodipodi:arg1="3.1415927"
+         sodipodi:arg2="4.1887903"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 52.5,105 4.5,-2.59808 0,5.19616 z"
+         inkscape:transform-center-x="2.5000006"
+         inkscape:transform-center-y="0.33493523" />
+      <title
+         id="title12443">Wye-delta transformer</title>
+    </symbol>
+    <symbol
+       id="g3112">
+      <title
+         id="title10655">Wye-wye transformer</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2736"
+         cx="85"
+         cy="105"
+         r="10" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2738"
+         cx="95.150002"
+         cy="105.15"
+         r="10" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.5,102 c 0,0 0,3 0,3 l -2.499999,1.5"
+         id="path2740" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 80.5,105 2.5,1.5"
+         id="path2742" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100,102.5 c 0,0 0,3 0,3 l -2.499999,1.5"
+         id="path2740-1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100,105.5 2.5,1.5"
+         id="path2742-7" />
+      <title
+         id="title12622">Wye-wye transformer</title>
+    </symbol>
+    <symbol
+       id="g3118">
+      <title
+         id="title10657">Delta-delta transformer</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2764"
+         cx="130.14999"
+         cy="105.15"
+         r="10" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2766"
+         cx="140.3"
+         cy="105.3"
+         r="10" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2772"
+         sodipodi:sides="3"
+         sodipodi:cx="145.64999"
+         sodipodi:cy="105.15"
+         sodipodi:r1="3"
+         sodipodi:r2="5.5901699"
+         sodipodi:arg1="3.1415927"
+         sodipodi:arg2="4.1887903"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 142.64999,105.15 4.5,-2.59807 0,5.19615 z"
+         inkscape:transform-center-x="2.5000006"
+         inkscape:transform-center-y="0.33493523" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2774"
+         sodipodi:sides="3"
+         sodipodi:cx="126"
+         sodipodi:cy="105"
+         sodipodi:r1="3"
+         sodipodi:r2="5.5901699"
+         sodipodi:arg1="3.1415927"
+         sodipodi:arg2="4.1887903"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 123,105 4.5,-2.59808 0,5.19616 z"
+         inkscape:transform-center-x="2.5000006"
+         inkscape:transform-center-y="0.33493523" />
+      <title
+         id="title12811">Delta-delta transformer</title>
+    </symbol>
+    <symbol
+       id="g10665">
+      <title
+         id="title10667">Wye-delta-x transformer</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2776"
+         cx="180"
+         cy="115"
+         r="10" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2778"
+         cx="190.15001"
+         cy="105.15"
+         r="10" />
+      <path
+         sodipodi:type="star"
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2782"
+         sodipodi:sides="3"
+         sodipodi:cx="175.85001"
+         sodipodi:cy="114.85"
+         sodipodi:r1="3"
+         sodipodi:r2="5.5901699"
+         sodipodi:arg1="3.1415927"
+         sodipodi:arg2="4.1887903"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 172.85001,114.85 4.5,-2.59808 0,5.19615 z"
+         inkscape:transform-center-x="2.5000006"
+         inkscape:transform-center-y="0.33493523" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2784"
+         cx="180.14999"
+         cy="100.15"
+         r="10" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,96 c 0,0 0,3 0,3 l -2.5,1.5"
+         id="path2788" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,99 2.5,1.5"
+         id="path2790" />
+      <title
+         id="title13005">Wye-delta-x transformer</title>
+    </symbol>
+    <symbol
+       id="g10671">
+      <title
+         id="title10673">Generic transformer</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2798"
+         cx="230"
+         cy="105"
+         r="10" />
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle2800"
+         cx="240.15002"
+         cy="105.15"
+         r="10" />
+      <title
+         id="title13210">Generic transformer</title>
+    </symbol>
+    <symbol
+       id="g3146">
+      <title
+         id="title10693">DC-AC converter</title>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2832"
+         width="24.999998"
+         height="25"
+         x="30.000002"
+         y="130"
+         ry="2.1484087e-13" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 55,130 30,155"
+         id="path2834"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 33.499999,137.5 H 41"
+         id="path2836" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 33.499999,135 H 41"
+         id="path2838" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 42.349999,148.35 c 0,0 1.000001,-1.5 2.500001,-1.5 1.5,0 2.5,1.5 2.5,1.5"
+         id="path2874"
+         sodipodi:nodetypes="czc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 47.35,148.35 c 0,0 1.000001,1.5 2.500001,1.5 1.5,0 2.5,-1.5 2.5,-1.5"
+         id="path2874-5"
+         sodipodi:nodetypes="czc" />
+      <title
+         id="title13416">DC-AC converter</title>
+    </symbol>
+    <symbol
+       id="g3154">
+      <title
+         id="title10695">AC-DC converter</title>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3128"
+         width="24.999998"
+         height="25"
+         x="70"
+         y="130"
+         ry="2.1484087e-13" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 94.999998,130 -25,25"
+         id="path3130"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 83.499999,150 H 91"
+         id="path3132" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 83.499999,147.5 H 91"
+         id="path3134" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 73.349999,136.85 c 0,0 1.000001,-1.5 2.500001,-1.5 1.5,0 2.5,1.5 2.5,1.5"
+         id="path3136"
+         sodipodi:nodetypes="czc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 78.35,136.85 c 0,0 1.000001,1.5 2.500001,1.5 1.5,0 2.5,-1.5 2.5,-1.5"
+         id="path3138"
+         sodipodi:nodetypes="czc" />
+      <title
+         id="title13635">AC-DC converter</title>
+    </symbol>
+    <symbol
+       id="g10700">
+      <title
+         id="title10702">Addition</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2921"
+         cx="45"
+         cy="185"
+         r="5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 43,185 h 4"
+         id="path2923"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 44.999999,183 45,187"
+         id="path2925"
+         sodipodi:nodetypes="cc" />
+      <title
+         id="title13863">Addition</title>
+    </symbol>
+    <symbol
+       id="g10707">
+      <title
+         id="title10709">Multiplication</title>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path2921-4"
+         cx="75"
+         cy="185"
+         r="5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 73.5,183.5 c 0,0 2.999999,3 2.999999,3"
+         id="path2942" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 76.499999,183.5 73.5,186.5"
+         id="path2944" />
+      <title
+         id="title14094">Multiplication</title>
+    </symbol>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="365.51803"
+     inkscape:cy="275.39385"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="777"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833"
+       dotted="true"
+       spacingx="0.5"
+       spacingy="0.5"
+       empspacing="10"
+       originx="-49.799998"
+       originy="-32.758276" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-49.8,-32.758276)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1675"
+       width="80"
+       height="90"
+       x="50"
+       y="45"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="51.855305"
+       y="52.102188"
+       id="text1679"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1677"
+         x="51.855305"
+         y="52.102188"
+         style="font-size:7.05556px;stroke-width:0.264583">Raspberry Pi</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,50 c 35,0 35,0 35,0"
+       id="path1681"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,55 h 35"
+       id="path1683"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,59.999998 h 35"
+       id="path1685"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="49.422012"
+       id="text1689"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1687"
+         x="131.32396"
+         y="49.422012"
+         style="font-size:4.93889px;stroke-width:0.264583">EN1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="54.407543"
+       id="text1693"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1691"
+         x="131.32396"
+         y="54.407543"
+         style="font-size:4.93889px;stroke-width:0.264583">EN2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="59.407543"
+       id="text1697"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1695"
+         x="131.32396"
+         y="59.407543"
+         style="font-size:4.93889px;stroke-width:0.264583">EN3</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,70 c 35,0 35,0 35,0"
+       id="path1699"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,75 h 35"
+       id="path1701"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,79.999998 h 35"
+       id="path1703"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="69.422012"
+       id="text1707"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1705"
+         x="131.32396"
+         y="69.422012"
+         style="font-size:4.93889px;stroke-width:0.264583">IN1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="74.407547"
+       id="text1711"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1709"
+         x="131.32396"
+         y="74.407547"
+         style="font-size:4.93889px;stroke-width:0.264583">IN2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="79.407547"
+       id="text1715"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1713"
+         x="131.32396"
+         y="79.407547"
+         style="font-size:4.93889px;stroke-width:0.264583">IN3</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.0868,89.993583 c 35,0 35,0 35,0"
+       id="path1717"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.41077"
+       y="89.415596"
+       id="text1721"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1719"
+         x="131.41077"
+         y="89.415596"
+         style="font-size:4.93889px;stroke-width:0.264583">3V3</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,115 h 50"
+       id="path1727"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,120 h 50"
+       id="path1729"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,125 h 35"
+       id="path1731"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32397"
+       y="114.42201"
+       id="text1735"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1733"
+         x="131.32397"
+         y="114.42201"
+         style="font-size:4.93889px;stroke-width:0.264583">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32397"
+       y="119.40755"
+       id="text1739"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1737"
+         x="131.32397"
+         y="119.40755"
+         style="font-size:4.93889px;stroke-width:0.264583">H1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32397"
+       y="124.40755"
+       id="text1743"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1741"
+         x="131.32397"
+         y="124.40755"
+         style="font-size:4.93889px;stroke-width:0.264583">H2</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,110 h 50"
+       id="path1745"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32397"
+       y="109.42201"
+       id="text1749"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1747"
+         x="131.32397"
+         y="109.42201"
+         style="font-size:4.93889px;stroke-width:0.264583">VCC</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,125 h 50"
+       id="path1751"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,130 h 50"
+       id="path1753"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32397"
+       y="129.40755"
+       id="text1757"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1755"
+         x="131.32397"
+         y="129.40755"
+         style="font-size:4.93889px;stroke-width:0.264583">H3</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1759"
+       width="90"
+       height="55"
+       x="165"
+       y="45"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="174.99998"
+       y="55"
+       id="text1763"><tspan
+         sodipodi:role="line"
+         id="tspan1761"
+         x="174.99998"
+         y="55"
+         style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="187.66325"
+       y="52.467831"
+       id="text1767"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1765"
+         x="187.66325"
+         y="52.467831"
+         style="font-size:7.05556px;stroke-width:0.264583">X-NUCLEO-IHM001</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 220,100 v 5.5"
+       id="path1769"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 225,100 v 5"
+       id="path1771"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 230,100 v 5.5"
+       id="path1773"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1775"
+       cx="225"
+       cy="120"
+       r="15"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1777"
+       width="25"
+       height="30.000002"
+       x="180"
+       y="105"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="183.54861"
+       y="114.29802"
+       id="text1781"
+       inkscape:transform-center-x="-0.094494048"
+       inkscape:transform-center-y="-3.4962798"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1779"
+         x="183.54861"
+         y="114.29802"
+         style="stroke-width:0.264583">Hall</tspan><tspan
+         sodipodi:role="line"
+         x="183.54861"
+         y="122.23552"
+         style="stroke-width:0.264583"
+         id="tspan1783">sensor</tspan><tspan
+         sodipodi:role="line"
+         x="183.54861"
+         y="130.17302"
+         style="stroke-width:0.264583"
+         id="tspan1785">board</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11.2889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="219.68628"
+       y="123.8089"
+       id="text1789"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1787"
+         x="219.68628"
+         y="123.8089"
+         style="font-size:11.2889px;stroke-width:0.264583">M</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.48975"
+       y="51.898026"
+       id="text1793"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1791"
+         x="109.48975"
+         y="51.898026"
+         style="font-size:5.64444px;stroke-width:0.264583">GPIO16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.48975"
+       y="56.898026"
+       id="text1174"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1172"
+         x="109.48975"
+         y="56.898026"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.77363"
+       y="61.898026"
+       id="text1178"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1176"
+         x="109.77363"
+         y="61.898026"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.75985"
+       y="72.406296"
+       id="text1182"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1180"
+         x="109.75985"
+         y="72.406296"
+         style="font-size:5.64444px;stroke-width:0.264583">GPIO12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.75985"
+       y="77.406296"
+       id="text1186"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1184"
+         x="109.75985"
+         y="77.406296"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="109.77363"
+       y="82.398026"
+       id="text1190"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1188"
+         x="109.77363"
+         y="82.398026"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO18</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="108.88477"
+       y="91.689964"
+       id="text1194"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1192"
+         x="108.88477"
+         y="91.689964"
+         style="font-size:5.64444px;stroke-width:0.264583">3V3 (17)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="51.596008"
+       id="text1202"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1200"
+         x="165.80432"
+         y="51.596008"
+         style="font-size:5.64444px;stroke-width:0.264583">C7_1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="57.096008"
+       id="text1206"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1204"
+         x="165.80432"
+         y="57.096008"
+         style="font-size:5.64444px;stroke-width:0.264583">C7_2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="62.096008"
+       id="text1210"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1208"
+         x="165.80432"
+         y="62.096008"
+         style="font-size:5.64444px;stroke-width:0.264583">C7_3</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1212"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';white-space:pre;shape-inside:url(#rect1214);" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="71.596008"
+       id="text1220"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1218"
+         x="165.80432"
+         y="71.596008"
+         style="font-size:5.64444px;stroke-width:0.264583">C10_23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="77.096008"
+       id="text1224"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1222"
+         x="165.80432"
+         y="77.096008"
+         style="font-size:5.64444px;stroke-width:0.264583">C10_21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80432"
+       y="82.096008"
+       id="text1228"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1226"
+         x="165.80432"
+         y="82.096008"
+         style="font-size:5.64444px;stroke-width:0.264583">C10_33</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.89111"
+       y="91.589592"
+       id="text1232"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1230"
+         x="165.89111"
+         y="91.589592"
+         style="font-size:5.64444px;stroke-width:0.264583">C7_12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="111.62019"
+       y="111.19638"
+       id="text1236"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1234"
+         x="111.62019"
+         y="111.19638"
+         style="font-size:5.64444px;stroke-width:0.264583">3V3 (1)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130,95 c 35,0 35,0 35,0"
+       id="path1238"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="131.32396"
+       y="94.422012"
+       id="text1242"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1240"
+         x="131.32396"
+         y="94.422012"
+         style="font-size:4.93889px;stroke-width:0.264583">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="105.15169"
+       y="96.696381"
+       id="text1246"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1244"
+         x="105.15169"
+         y="96.696381"
+         style="font-size:5.64444px;stroke-width:0.264583">GND (20)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="165.80431"
+       y="96.596008"
+       id="text1250"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1248"
+         x="165.80431"
+         y="96.596008"
+         style="font-size:5.64444px;stroke-width:0.264583">C7_22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="107.97391"
+       y="116.19638"
+       id="text1254"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1252"
+         x="107.97391"
+         y="116.19638"
+         style="font-size:5.64444px;stroke-width:0.264583">GND (6)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="112.31197"
+       y="121.89803"
+       id="text1258"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1256"
+         x="112.31197"
+         y="121.89803"
+         style="font-size:5.64444px;stroke-width:0.264583">GPIO2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="112.33953"
+       y="126.89803"
+       id="text1262"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1260"
+         x="112.33953"
+         y="126.89803"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="112.27614"
+       y="131.89803"
+       id="text1266"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1264"
+         x="112.27614"
+         y="131.89803"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         dy="0">GPIO4</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1268"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';white-space:pre;shape-inside:url(#rect1270);" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="-99.132294"
+       y="221.89803"
+       id="text1291"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1289"
+         x="-99.132294"
+         y="221.89803"
+         style="font-size:5.64444px;stroke-width:0.264583">OUT1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="-99.132294"
+       y="226.89803"
+       id="text1295"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1293"
+         x="-99.132294"
+         y="226.89803"
+         style="font-size:5.64444px;stroke-width:0.264583">OUT2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="-99.132294"
+       y="231.89803"
+       id="text1299"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1297"
+         x="-99.132294"
+         y="231.89803"
+         style="font-size:5.64444px;stroke-width:0.264583">OUT3</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.999999,140 v -5"
+       id="path1301"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="50.901634"
+       y="144.87535"
+       id="text1305"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1303"
+         x="50.901634"
+         y="144.87535"
+         style="stroke-width:0.264583">microUSB</tspan><tspan
+         sodipodi:role="line"
+         x="50.901634"
+         y="152.81285"
+         style="stroke-width:0.264583"
+         id="tspan1307">for power</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 250,140 V 100"
+       id="path1309"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="239.83318"
+       y="145.17351"
+       id="text1313"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         x="239.83318"
+         y="145.17351"
+         style="stroke-width:0.264583"
+         id="tspan1315">DC 9 V</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 120,44.999999 V 40 l -1.5,-1.5 h 3 L 120,40"
+       id="path1319"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Palatino Linotype';-inkscape-font-specification:'Palatino Linotype, Normal';stroke-width:0.264583"
+       x="112.83064"
+       y="37.182812"
+       id="text1323"
+       inkscape:export-xdpi="200.036"
+       inkscape:export-ydpi="200.036"><tspan
+         sodipodi:role="line"
+         id="tspan1321"
+         x="112.83064"
+         y="37.182812"
+         style="stroke-width:0.264583">WiFi</tspan></text>
+  </g>
+</svg>
