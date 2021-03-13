@@ -14,3 +14,7 @@ GPIO16, 20, and 21 pins have been chosen for the signals EN1, EN2, and EN2 becau
 <img src="photo.jpg" width=600>
 
 The photo above shows the situation where the original Nucleo F302R8 was removed and instead a Raspberry Pi 3 Model A+ was connected to a X-NUCLEO-IHM001. Connections were made with jumper wires for breadboards making some pins are vulnerable for spontaneous disconnection. Be careful. If succeeded in connection, the BLDC motor starts to rotate as you command from the terminal, e.g., via SSH.
+
+I have uploaded a YouTube video to show the operation of the circuit and program. See below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YRLl7kJJlfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
