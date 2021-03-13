@@ -9,7 +9,7 @@ You need to "sudo" to run this program.
 
 The schematic above shows connections between the Raspberry Pi and the X-NUCLEO-IHM001 along with a Hall sensor board available from CQ Publishing in Japan.
 GPIO12, 13, and 18 pins have been chosen for the signals IN1, IN2, and IN3 because they support hardware PWM.
-GPIO16, 20, and 21 pins have been chosen for the signals EN1, EN2, and EN2 because they are set as inputs and pulled-down at power-on of the Raspberry Pi, before being set as outputs by this program. Note that all the GPIO pins of Raspberry Pi are set as input at power-on, but some pins are pulled-up to 3.3 volts, resulting in unwanted gate-deblock if they were connected to EN1, EN2, or EN3. Thus those pin were avoided.
+GPIO16, 20, and 21 pins have been chosen for the signals EN1, EN2, and EN2 because they are set as inputs and pulled-down at power-on of the Raspberry Pi, before being set as outputs by this program. Note that all the GPIO pins of Raspberry Pi are set as inputs at power-on, but some pins are pulled-up to 3.3 volts, resulting in unwanted gate-deblock if they were connected to EN1, EN2, or EN3. Thus, those pins have been avoided.
 
 <img src="photo.jpg" width=600>
 
