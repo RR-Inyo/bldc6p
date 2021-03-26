@@ -19,8 +19,8 @@
 #define MOD_F   400000  /* Modulation index for initial forced commutation: Note unity = 1,000,000 */
 #define TICK_F  100     /* [microseconds] to stay in a section */
 #define D_MOD   20000   /* Change of modulation index by one command */
-#define CHKDLY  50000   /* [microsecond] to wait to check the callback function takes over control
-
+#define CHKDLY  50000   /* [microsecond] to wait to check the callback function takes over control */
+#define MAF     540     /* Moving average filter to count revolution */
 
 /* Define GPIO pins connected to P-NUCLEO-IHM001 */
 /* Hall sensors */
@@ -57,11 +57,13 @@
 #define TIMEOUT 100000
 
 /* Define global variables */
-int st = STILL;     /* Enable (deblock) status */
-int mod = 0;        /* Modulation index */
-int called = 0;     /* Flag to indicate the callback function being called */
-uint32_t td_0 = 0;  /* [microsecond] for one electrical cycle */
-uint32_t td_1 = 0;  /* [microsecond] for one electrical cycle, old value */
+int st = STILL;         /* Enable (deblock) status */
+int mod = 0;            /* Modulation index */
+int called = 0;         /* Flag to indicate the callback function being called */
+uint32_t tick_0 = 0;    /* [microsecond] for one electrical cycle */
+uint32_t tick_1 = 0;    /* [microsecond] for one electrical cycle, old value */
+uint32_t tick_diff[MAF];/* Tick difference buffer */
+int k = 0;              /* Index for tick difference buffer */
 
 /* Define function protorypes */
 void setGPIO();
@@ -188,6 +190,8 @@ void setGPIO()
 void processCommand()
 {
     int c;
+    int j = 0;
+    uint64_t tick_ave = 0;
 
     /* Show prompt */
     printf("bldc6p>> ");
@@ -235,9 +239,13 @@ void processCommand()
                 return;
 
             case 't':   /* Show rotational speed */
-                printf("td_0 = %u, td_1 = %u\n", td_0, td_1);
-                printf("td_1 - td_0 = %u\n", td_0 - td_1);
-                printf("Speed = %f [rpm]\n", 60.0 / (td_0 - td_1) * 1000000.0 / P_PAIR);
+                for(j = 0; j < MAF; j++) {
+                    tick_ave += tick_diff[j];
+                }
+                tick_ave /= MAF;
+                printf("Average tick difference for one electrical rotation: %d microsec\n", tick_ave);
+                printf("Rotational speed: %.2f Hz\n", 1 / (tick_ave / 1e6) / P_PAIR);
+                printf("Rotational speed: %.2f rpm\n", 60.0 / (tick_ave / 1e6) / P_PAIR);
                 return;
 
             case 'e':   /* Exit from this program */
@@ -384,8 +392,13 @@ void cbDriveMotor(int gpio, int level, uint32_t tick)
     /* Choose sector depending on Hall sensor signals */
     /* From 010 to 011 */
     if (gpio == H3 && level == 1) {
-        td_1 = td_0;
-        td_0 = tick;
+
+        /* Storing tick difference into buffer */
+        tick_1 = tick_0;
+        tick_0 = tick;
+        tick_diff[k] = tick_0 - tick_1;
+        k = (k + 1) % MAF;
+        
         produceSignal(1);
     }
     /* From 011 to 001 */
