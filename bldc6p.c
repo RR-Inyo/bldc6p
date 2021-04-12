@@ -243,7 +243,7 @@ void processCommand()
                     tick_ave += tick_diff[j];
                 }
                 tick_ave /= MAF;
-                printf("Average tick difference for one electrical rotation: %d microsec\n", tick_ave);
+                printf("Average tick difference for one electrical rotation: %d microsec\n", (int) tick_ave);
                 printf("Rotational speed: %.2f Hz\n", 1 / (tick_ave / 1e6) / P_PAIR);
                 printf("Rotational speed: %.2f rpm\n", 60.0 / (tick_ave / 1e6) / P_PAIR);
                 return;
