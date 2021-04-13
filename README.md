@@ -39,7 +39,7 @@ Commands:
 Setting GPIO pins...
 bldc6p>>
 ```
-You can enter your command after the prompt `bldc6p>>'.
+You can enter your command after the prompt `bldc6p>>`.
 
 If you enter `s`, the program tries to start the motor by forced-commutation for a short period of time and to make a transition to the 6-pulse control using the signals from the Hall sensors. The default initial duty is 0.4. You can raise or lower the duty by the command `r` and `l`, respectively. The command `h` will stop (halt) the motor by gate-blocking the motor drive inverter. Typing the command `t` shows rotational speed in [rpm] which measures time between the beginning of Sector 1 to the next beggining of Sector 1 by gpioGetTick() function. It shuld be noted that result from the `t` command can contain error as processing the shell, or ssh if remotely controlled, affects motor rotation. Finally, the command `e` ends the program. It is recommended to stop the motor before ending the program.
 
