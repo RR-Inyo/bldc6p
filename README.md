@@ -20,7 +20,7 @@ I have uploaded a YouTube video to show the operation of the circuit and program
 
 https://www.youtube.com/embed/YRLl7kJJlfI
 
-## Ussage
+## Usage
 As neither push buttons nor displays are equipped in the circuit diagram above, all controls are done through shell.
 If launch the software, you will see the message below.
 
