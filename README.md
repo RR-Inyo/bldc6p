@@ -20,7 +20,7 @@ I have uploaded a YouTube video to show the operation of the circuit and program
 
 https://www.youtube.com/embed/YRLl7kJJlfI
 
-Although written only in the Japanese language, my blog about this Raspberry Pi control of the BLDC motor is below.
+Although written only in the Japanese language, my blog post about this Raspberry Pi control of the BLDC motor below.
 
 https://negligible.hatenablog.com/entry/2021/03/26/035001
 
