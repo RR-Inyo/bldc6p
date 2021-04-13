@@ -22,7 +22,7 @@ https://www.youtube.com/embed/YRLl7kJJlfI
 
 ## Usage
 As neither push buttons nor displays are equipped in the circuit diagram above, all controls are done through shell.
-If launch the software, you will see the message below.
+When launching the software, you will see the message below.
 
 ```
 =====================================================
