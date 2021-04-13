@@ -48,7 +48,7 @@ This program drives the BLDC motor by the signals from the Hall sensors which ar
 
 As the Raspberry Pi is a Linux computer, there are many processes running simultaneously. Thus, the CPU of the Raspberry Pi may be taken to different process while running the motor, which makes a disturbance. With a multicore Raspberry Pi, the disturbance is smaller. In addition, response time of the interruption from the rising or falling edge of a Hall sensor signal to the entrance to the callback function may vary depending on the single- or multi-core Raspberry Pi.
 
-<img src="duty-vs-rpm.svg">
+<img src="duty-vs-rpm.svg" width=600>
 
 For example, the figure above shows the relationship between the duty and the rotational speed in [rpm]. This is a test result with a DC voltage of 9 V (with a testbed shown in the photo above) With the single-core Raspberry Pi Zero WH the rotational speed is sturated around 6,000 rpm while it reaches above 10,000 rpm with the four-core Raspberry Pi 3 A+. This difference resulted from the response time of the interruption.
 
